@@ -2,14 +2,14 @@
 
 🎯 El objetivo principal es analizar el comportamiento de los clientes de una empresa de telecomunicaciones (*Telco Customer Churn*) para poder identificar los factores clave que determinan la baja del servicio. limpiando los datos, haciendo un análisis exploratorio y aplicando un modelo predictivo de regresión lineal, se busca aportar información estratégica para la toma de decisiones buscando la retención de clientes.
 
-👥 Integrantes del Grupo
-**Franco Mazzoni**
-**Martín Álvarez**
-**Gabriel Fernández Waisberg**
-**Mateo Curtosi**
+👥 Integrantes del Grupo:
+- **Franco Mazzoni**
+- **Martín Álvarez**
+- **Gabriel Fernández Waisberg**
+- **Mateo Curtosi**
 
-Google Colab
-https://colab.research.google.com/drive/1gUr-2R_4HR-Kx8N76zmHj9NlyZ0gr4pj#scrollTo=SPVXtsrxasHp
+Google Colab:
+[Google Colab - Grupo 05](https://colab.research.google.com/drive/11BUM5l0QH7-pJPakYWlNu-6vAlHIf1SK#scrollTo=DI3J3cmi7S56)
 
 🛠️ Stack Tecnológico y Librerías utilizadas
 El proyecto fue desarrollado en **Python**, utilizando las siguientes librerías:
@@ -19,13 +19,14 @@ El proyecto fue desarrollado en **Python**, utilizando las siguientes librerías
 **Entorno de Ejecución:** Google Colab / Jupyter Notebook
 
 📁 Estructura del Repositorio
-
+```
 tpi-analisis-de-datos/
-├── datos/
-│   ├── crudo/               # Archivos de datos originales (dataset de Kaggle)
-│   └── procesado/           # Datasets depurados, transformados e integrados
-├── cuadernos/
-│   └── TPI_Análisis_de_Datos.ipynb  # Notebook oficial ejecutable en Google Colab
-├── documentos/
-│   └── INFORME_EJECUTIVO.pdf        # Informe técnico formal, metodología y resultados
-└── LÉAME.md                         # Portada y guía de navegación del proyecto
+├── data/
+│   ├── raw/                            # Archivos de datos originales
+│   └── processed/                      # Datasets depurados, transformados e integrados
+├── notebooks/
+│   └── TPI_Analisis_de_Datos.ipynb     # Notebook oficial ejecutable en Google Colab
+├── docs/
+|   └── INFORME_EJECUTIVO.pdf           # Informe técnico formal y de resultados
+└── README.md                           # Portada del proyecto, tecnologías, integrantes y enlace a Colab
+```
